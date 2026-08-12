@@ -4,12 +4,12 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.16.5
-  name: sessions.ai.kedge.faros.sh
+  name: sessions.ai.faros.sh
 spec:
-  group: ai.kedge.faros.sh
+  group: ai.faros.sh
   names:
     categories:
-    - kedge
+    - faros
     kind: Session
     listKind: SessionList
     plural: sessions

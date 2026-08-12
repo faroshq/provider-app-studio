@@ -1,12 +1,12 @@
 apiVersion: apis.kcp.io/v1alpha1
 kind: APIResourceSchema
 metadata:
-  name: v260806-59f3b567.sessions.ai.kedge.faros.sh
+  name: v260806-59f3b567.sessions.ai.faros.sh
 spec:
-  group: ai.kedge.faros.sh
+  group: ai.faros.sh
   names:
     categories:
-    - kedge
+    - faros
     kind: Session
     listKind: SessionList
     plural: sessions
